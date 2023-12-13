@@ -1,0 +1,35 @@
+#strona{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-areas: "top" "mid" "bot";
+}
+
+#top{
+    grid-area: top;
+    background-color: black;
+    color: aliceblue;
+}
+
+#mid{
+    grid-area: mid;
+    background-color: antiquewhite;
+}
+
+#bot{
+    grid-area: bot;
+    background-color: black;
+    color: aliceblue;
+}
+
+body{
+    margin: 0;
+}
+
+td{
+    font-weight: bold;
+    text-align: center;
+    height: 110px;
+    width: 110px;
+    background-color: white;
+}
